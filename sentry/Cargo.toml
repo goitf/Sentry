@@ -60,7 +60,7 @@ sentry-tower = { version = "0.25.0", path = "../sentry-tower", optional = true }
 sentry-tracing = { version = "0.25.0", path = "../sentry-tracing", optional = true }
 log_ = { package = "log", version = "0.4.8", optional = true, features = ["std"] }
 reqwest_ = { package = "reqwest", version = "0.11", optional = true, features = ["blocking", "json"], default-features = false }
-curl_ = { package = "curl", version = "0.4.25", optional = true }
+curl_ = { package = "curl", version = "0.4.43", optional = true }
 httpdate = { version = "1.0.2", optional = true }
 surf_ = { package = "surf", version = "2.0.0", optional = true, default-features = false }
 serde_json = { version = "1.0.48", optional = true }
