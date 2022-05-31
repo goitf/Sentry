@@ -58,7 +58,7 @@ sentry-panic = { version = "0.25.0", path = "../sentry-panic", optional = true }
 sentry-slog = { version = "0.25.0", path = "../sentry-slog", optional = true }
 sentry-tower = { version = "0.25.0", path = "../sentry-tower", optional = true }
 sentry-tracing = { version = "0.25.0", path = "../sentry-tracing", optional = true }
-log_ = { package = "log", version = "0.4.8", optional = true, features = ["std"] }
+log_ = { package = "log", version = "0.4.17", optional = true, features = ["std"] }
 reqwest_ = { package = "reqwest", version = "0.11", optional = true, features = ["blocking", "json"], default-features = false }
 curl_ = { package = "curl", version = "0.4.43", optional = true }
 httpdate = { version = "1.0.2", optional = true }
@@ -75,7 +75,7 @@ sentry-tower = { path = "../sentry-tower" }
 sentry-tracing = { path = "../sentry-tracing" }
 actix-web = { version = "4", default-features = false }
 anyhow_ = { package = "anyhow", version = "1.0.30" }
-log_ = { package = "log", version = "0.4.8", features = ["std"] }
+log_ = { package = "log", version = "0.4.17", features = ["std"] }
 pretty_env_logger = "0.4.0"
 slog_ = { package = "slog", version = "2.5.2" }
 tokio = { version = "1.0", features = ["macros"] }
