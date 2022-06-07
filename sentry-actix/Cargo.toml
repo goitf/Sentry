@@ -20,4 +20,4 @@ sentry-core = { version = "0.25.0", path = "../sentry-core", default-features = 
 actix-web = { version = "4" }
 futures = "0.3"
 sentry = { path = "../sentry", features = ["test"] }
-tokio = { version = "1.0", features = ["full"] }
+tokio = { version = "1.19", features = ["full"] }

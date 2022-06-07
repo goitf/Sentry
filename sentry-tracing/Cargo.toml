@@ -20,4 +20,4 @@ tracing-subscriber = { version = "0.3.1", default-features = false, features = [
 log = "0.4"
 sentry = { path = "../sentry", default-features = false, features = ["test"] }
 tracing = "0.1"
-tokio = { version = "1.8", features = ["rt-multi-thread", "macros", "time"] }
+tokio = { version = "1.19", features = ["rt-multi-thread", "macros", "time"] }
