@@ -155,7 +155,7 @@ jobs:
 
       #- run: cargo llvm-cov --all-features --workspace --doctests --lcov --output-path lcov.info
 
-      - uses: codecov/codecov-action@95faa5a02616a3c3f7d74318f8de748d27ff1683
+      - uses: codecov/codecov-action@dd819f8a8a48579b02d4312c4ed4f507dc8e8dd9
         with:
           directory: coverage
           #files: lcov.info
