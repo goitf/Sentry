@@ -14,7 +14,7 @@ edition = "2018"
 [dependencies]
 sentry-core = { version = "0.25.0", path = "../sentry-core", features = ["client"] }
 tracing-core = "0.1"
-tracing-subscriber = { version = "0.3.1", default-features = false, features = ["std"] }
+tracing-subscriber = { version = "0.3.11", default-features = false, features = ["std"] }
 
 [dev-dependencies]
 log = "0.4"
