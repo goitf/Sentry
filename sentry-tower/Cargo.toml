@@ -24,7 +24,7 @@ url = { version = "2.2.2", optional = true }
 
 [dev-dependencies]
 anyhow = "1"
-prost = "0.8"
+prost = "0.10"
 sentry = { path = "../sentry", default-features = false, features = ["test"] }
 sentry-anyhow = { path = "../sentry-anyhow" }
 tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
